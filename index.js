@@ -66,7 +66,7 @@ if( overs=== undefined ){
 }
 
 
-if(mat.state === "In Progress" || mat.state === "Innings Break"){
+if(mat.state === "In Progress" || mat.state === "Innings Break" || mat.state === "Complete"){
 	const hid =  document.getElementById('hidden');
 hid.style.display = "none";
 const content =` <div class="card">
